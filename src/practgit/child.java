@@ -6,7 +6,7 @@ public class child  extends parent
 	
 		//step3: create property of childclass
 		
-		public void job()
+		public void jobmilala()
 		{
 			System.out.println("Private Job");
 		}
