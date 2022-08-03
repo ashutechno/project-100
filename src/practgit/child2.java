@@ -1,12 +1,12 @@
 package practgit;
 
-public class child  extends parent
+public class child2  extends parent
 {
 	//step2: money(), farm() and car() methods are inherited
 	
 		//step3: create property of childclass
 		
-		public void job()
+		public void jobno11()
 		{
 			System.out.println("Private Job");
 		}
@@ -22,7 +22,7 @@ public class child  extends parent
 		}
 		public static void main(String[] args) 
 		{
-			child c= new child();
+			child2 c= new child2();
 			c.money();
 			c.car();
 			c.farm();
@@ -34,7 +34,7 @@ public class child  extends parent
 			//Step 5: perform upcasting
 			// superclassname objectname= new subclassconstructor();
 			
-			parent obj= new child();
+			parent obj= new child2();
 		//  creating child class object by providing parentclass as reference.
 
 			obj.car();
@@ -45,7 +45,7 @@ public class child  extends parent
 			// Step6: Perform downcasting
 			// subclassname objectname= (subclassname)upcastingobject;
 			
-			child obj1= (child)obj;
+			child2 obj1= (child2)obj;
 			
 			obj1.car();
 			obj1.money();
